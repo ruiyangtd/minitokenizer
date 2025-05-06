@@ -5,6 +5,8 @@
 
 A from-scratch implementation of a llm tokenizer inspired by HuggingFace's tokenizers library. This project aims to provide a clean, educational implementation of modern tokenization algorithms without external dependencies.
 
+<img src="./tokenizer.svg?sanitize=true" width="400px">
+
 ## Features
 
 Byte Pair Encoding (BPE)
@@ -16,6 +18,21 @@ Save/load tokenizer models
 Encode/decode text with various options
 
 Handle special tokens (UNK, PAD, BOS, EOS, etc.)
+
+# module
+
+BPE
+
+Normalizers
+
+PreTokenizers
+
+PostProcessors
+
+Decoders
+
+Trainers
+
 
 ## License
 
